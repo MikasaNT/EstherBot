@@ -1,8 +1,7 @@
 {
-    "HELLO": "Hey, I'm so glad you set EstherBot up!",
-    "TWITTER": "Let's tweet @ Esther so she knows you're setting a bot up. Here's a tweet that's ready to go: http://bit.ly/estherbot-tweet",
+    "Hello": "Hey, Nice to meet you!",
 	"FACEBOOK": "www.facebook.com"
-    "I LOVE YOU": "Awh, shucks! I love you too!",
+    "I LOVE YOU": ["Sry, I love myself","I hate you"],
     "CONNECT ME": "",
     "DISCONNECT": "Roger that, EstherBot is back."
 }
