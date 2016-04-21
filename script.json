@@ -1,7 +1,7 @@
 {
     "Hello": "Hey, Nice to meet you!",
 	"FACEBOOK": "www.facebook.com",
-    "I LOVE YOU": ["Sry, I love myself","I hate you"],
+    "I LOVE YOU": "Sry, I love myself",
     "CONNECT ME": "",
     "DISCONNECT": "Roger that, EstherBot is back."
 }
