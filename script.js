@@ -4,7 +4,6 @@ const _ = require('lodash');
 const Script = require('smooch-bot').Script;
 
 const scriptRules = require('./script.json');
-const feedback = "\n---\nYou can type Command to get a list of available commands.\n---\nPlease help answer the suvery at http://goo.gl/forms/1F3dX2eEGU if you have done chatting\n:D";
 
 module.exports = new Script({
     processing: {
@@ -14,7 +13,7 @@ module.exports = new Script({
 
     start: {
         receive: (bot) => {
-            return bot.say('So you want to learn about Wai Yan? Just say HELLO to get started.')
+            return bot.say('So you want to learn about Esther? Just say HELLO to get started.')
                 .then(() => 'speak');
         }
     },
@@ -45,11 +44,10 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`Hi I am hardcoded and not intelligent enough to understand everything you say :(\nU can check out the list of available commands at http://pastebin.com/2tku84p6`).then(() => 'speak');
+                    return bot.say(`I didn't understand that.`).then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
-				var response = response+feedback
                 var lines = response.split(/(<img src=\'[^>]*\'\/>)/);
 
                 var p = Promise.resolve();
