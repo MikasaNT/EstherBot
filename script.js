@@ -4,7 +4,7 @@ const _ = require('lodash');
 const Script = require('smooch-bot').Script;
 
 const scriptRules = require('./script.json');
-const feedback = "\n---\nPlease help answer the suvery at http://goo.gl/forms/1F3dX2eEGU if you have done chatting\n:D"
+const feedback = "\n---\nYou can type Command to get a list of available commands.\n---\nPlease help answer the suvery at http://goo.gl/forms/1F3dX2eEGU if you have done chatting\n:D"
 
 module.exports = new Script({
     processing: {
