@@ -1,7 +1,17 @@
 {
-    "HELLO": "Hey, I'm so glad you set EstherBot up!",
-    "TWITTER": "Let's tweet @ Esther so she knows you're setting a bot up. Here's a tweet that's ready to go: http://bit.ly/estherbot-tweet",
+    "HELLO": "Hey, Nice to meet you!\nU can check out the list of available commands at http://pastebin.com/2tku84p6",
     "I LOVE YOU": "Awh, shucks! I love you too!",
+	"SKILLS AND ABILITIES": "Programming : Microsoft Visual Basic .NET, Python, Java, C/C++\nWeb Markup Languages : HTML 5, CSS , Javascript\nDatabases : Microsoft Access, SQL server, MySQL\nApplications : Microsoft Office 2013, Android Studio\nOperating Systems : Microsoft Windows 7, 8, 10, Basic knowledge in Linux OS\nHardware : Basic knowledge in PC Assembly, Hardwares and Troubleshooting\nNetworking : Basic knowledge in Protocols: HTTP, TCP/IP, SSL, IP routing, Basic understanding of Network Layers, Troubleshooting server\nSecurity : Basic knowledge in Web and OS security, and Cryptographic Hash functions",
+	"EMAIL": "You can contact me at htoowaiyan94@gmail.com",
+	"CELL": "You can contact me at 91009024",
+	"GENDER": "I am male.",
+	"NAME": "Hi, my name is Htoo Wai Yan.",
+	"WORKING EXPERIENCE": "​I have an internship experience at ST Electronics. I work in Large-Scales System Group Division, which mainly focuses on providing customers with management system softwares, mostly related to WebGIS. My task involves working on the application administrator’s code of the web application, handling the authentication for the login user and updating the database. Mostly used ArcGIS API for javascript, java for project source code and SQL server for managing database.",
+	"BIRTHDAY": "1 October 1994",
     "CONNECT ME": "",
-    "DISCONNECT": "Roger that, EstherBot is back."
+	"COMMAND": "List of available commands\nHello\nName\nSkills and abilities\nemail\ncell\ngender\nname\nworking experience\nbirthday\nnationality\neducation\ncareer objective",
+	"NATIONALITY": "I am from Myanmar.",
+	"EDUCATION": "I am in Seniro Year at Singapore University of Technology and Design, focusing mainly security and information system.",
+	"CAREER OBJECTIVE": "I am self-motivated with a passion for web technologies and information system. I would like to secure a full-timer career that involves Software Development in R&D environment or Network Management in the field of Information Technology.",
+    "DISCONNECT": "Roger that, Waiyanbot is back."
 }
