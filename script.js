@@ -4,6 +4,7 @@ const _ = require('lodash');
 const Script = require('smooch-bot').Script;
 
 const scriptRules = require('./script.json');
+const feedback = "\n---\nPlease help answer the suvery at http://goo.gl/forms/1F3dX2eEGU if you have done chatting\n:D"
 
 module.exports = new Script({
     processing: {
@@ -48,6 +49,7 @@ module.exports = new Script({
                 }
 
                 var response = scriptRules[upperText];
+				var response = response+feedback
                 var lines = response.split(/(<img src=\'[^>]*\'\/>)/);
 
                 var p = Promise.resolve();
