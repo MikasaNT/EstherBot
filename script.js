@@ -45,7 +45,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`I didn't understand that.`).then(() => 'speak');
+                    return bot.say(`Hi I am hardcoded and not intelligent enough to understand everything you say :(\nU can check out the list of available commands at http://pastebin.com/2tku84p6`).then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
